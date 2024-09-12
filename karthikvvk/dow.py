@@ -2,10 +2,10 @@ import os
 import requests
 
 # Your Google Custom Search API key
-api_key = 'AIzaSyBsutZgpB-cgJltJ2W1qfHOnOMjTcBZArc'
+api_key = ''
 
 # Your Custom Search Engine (CSE) ID
-cse_id = '55aafcdef841a4a20'
+cse_id = ''
 
 def fetch_image_urls(query, num_images):
     """
