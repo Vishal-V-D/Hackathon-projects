@@ -7,6 +7,7 @@ personalized suggestions with gemini Ai for blockchain project
 
 
 ### Step 3: Install Dependencies
+first extract this file into your pc then open vs code with this folder,enter the below bash code then run this code locally in your pc.
 ```bash
 pip install -r requirements.txt
 
