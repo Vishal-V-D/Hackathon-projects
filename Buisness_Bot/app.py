@@ -6,7 +6,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 # Initialize the Flask app
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '29581649c765e92a1aa408a1f4fb7f0c'  # Replace with your generated secret key
+app.config['SECRET_KEY'] = 'your_secret_key'  # Replace with your generated secret key
 app.config['SESSION_TYPE'] = 'mongodb'  # Use MongoDB for session management
 
 # MongoDB Configuration
@@ -24,7 +24,7 @@ app.config['SESSION_MONGODB_COLLECT'] = session_collection
 Session(app)
 
 model = genai.GenerativeModel('gemini-pro')
-genai.configure(api_key="AIzaSyAjNeEJiHqD6iCvnmThYPGDVO8-nwxF6XM")
+genai.configure(api_key="your_api")
 
 @app.errorhandler(404)
 def page_not_found(e):
